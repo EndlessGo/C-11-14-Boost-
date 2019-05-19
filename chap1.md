@@ -23,3 +23,17 @@
 + final禁止继承或派生
 + 类成员初始化
 + 委托构造
+
+## 1.6 泛型编程
++ 类型别名 using alias = type
++ 编译期常量 constexpr
++ 静态断言 static_assert(condition, message)
++ 可变参数模板！！！对于泛型编程和模板元编程意义重大，可以摆脱模板参数数量的限制和晦涩难懂的预处理语句！
+
+## 1.7 函数式编程
++ lambda表达式： [captures] (params) ->type {...}
++ 捕获列表用值拷贝的方式可以用mutable在内部修改捕获变量，但不影响外部变量
+
+## 1.8 并发编程
++ thread_local线程本地存储
++ 并发库 &lt;atomic&gt; &lt;mutex&gt; &lt;thread&gt;
